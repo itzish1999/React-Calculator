@@ -4,7 +4,7 @@ const Button = (props) => {
     return (
         <input
         type="button"
-        value={props.value}
+        value={props.label}
         />
     );
 }

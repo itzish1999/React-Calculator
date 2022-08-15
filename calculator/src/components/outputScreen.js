@@ -8,6 +8,6 @@ const OutputScreen = () => {
             <OutputScreenRow />
         </div>
     )
-};
+}
 
 export default OutputScreen;

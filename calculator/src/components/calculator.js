@@ -7,6 +7,7 @@ import Button from './button';
 class Calculator extends React.Component {
     render()
     {
+        return(
         <div className="frame">
             <CalculatorTitle value="Calculator" />
             <div class="mainCalc">
@@ -35,13 +36,14 @@ class Calculator extends React.Component {
                     <Button label={"3"} />
                     <Button label={"+"} />
                 </div>
-                <div classname="button-row">
+                <div className="button-row">
                     <Button label={"0"} />
                     <Button label={"="} />
                 </div>
             </div>
         </div>
+        );
     }
-};
+}
 
 export default Calculator;

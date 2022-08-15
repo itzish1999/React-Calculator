@@ -6,6 +6,6 @@ const CalculatorTitle = (props) => {
             { props.value }
         </div>
     )
-};
+}
 
 export default CalculatorTitle;
