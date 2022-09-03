@@ -76,32 +76,32 @@ class Calculator extends React.Component {
             <div class="mainCalc">
                 <OutputScreen />
                 <div className="button-row">
-                    <Button label={"Clear"} />
-                    <Button label={"Delete"} />
-                    <Button label={"."} />
-                    <Button label={"/"} />
+                    <Button label={"Clear"} handleClick = {this.handleClick}/>
+                    <Button label={"Delete"} handleClick = {this.handleClick}/>
+                    <Button label={"."} handleClick = {this.handleClick}/>
+                    <Button label={"/"} handleClick = {this.handleClick}/>
                 </div>
                 <div className="button-row">
-                    <Button label={"7"} />
-                    <Button label={"8"} />
-                    <Button label={"9"} />
-                    <Button label={"*"} />
+                    <Button label={"7"} handleClick = {this.handleClick}/>
+                    <Button label={"8"} handleClick = {this.handleClick}/>
+                    <Button label={"9"} handleClick = {this.handleClick}/>
+                    <Button label={"*"} handleClick = {this.handleClick}/>
                 </div>
                 <div className="button-row">
-                    <Button label={"4"} />
-                    <Button label={"5"} />
-                    <Button label={"6"} />
-                    <Button label={"-"} />
+                    <Button label={"4"} handleClick = {this.handleClick}/>
+                    <Button label={"5"} handleClick = {this.handleClick}/>
+                    <Button label={"6"} handleClick = {this.handleClick}/>
+                    <Button label={"-"} handleClick = {this.handleClick}/>
                 </div>
                 <div className="button-row">
-                    <Button label={"1"} />
-                    <Button label={"2"} />
-                    <Button label={"3"} />
-                    <Button label={"+"} />
+                    <Button label={"1"} handleClick = {this.handleClick}/>
+                    <Button label={"2"} handleClick = {this.handleClick}/>
+                    <Button label={"3"} handleClick = {this.handleClick}/>
+                    <Button label={"+"} handleClick = {this.handleClick}/>
                 </div>
                 <div className="button-row">
-                    <Button label={"0"} />
-                    <Button label={"="} />
+                    <Button label={"0"} handleClick = {this.handleClick}/>
+                    <Button label={"="} handleClick = {this.handleClick}/>
                 </div>
             </div>
         </div>

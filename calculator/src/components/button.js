@@ -2,7 +2,7 @@ import React from 'react';
 
 const Button = (props) => {
     return (
-        <input
+        <input onClick = {this.handleClick}
         type="button"
         value={props.label}
         />
