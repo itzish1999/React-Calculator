@@ -2,9 +2,10 @@ import React from 'react';
 
 const Button = (props) => {
     return (
-        <input onClick = {this.handleClick}
+        <input 
         type="button"
         value={props.label}
+        onClick = {props.handleClick}
         />
     );
 }

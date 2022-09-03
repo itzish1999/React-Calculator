@@ -1,11 +1,15 @@
 import React from 'react';
 
-const OutputScreenRow = () => {
+
+// Functional Component
+// Used to show Qustion/Answer
+const OutputScreenRow = (props) => {
     return (
         <div className="screen-row">
-            <input type="text" readOnly />
+            <input type="text" readOnly value = {props.value}/>
         </div>
     )
 }
 
+// Export Output Screen Row
 export default OutputScreenRow;
